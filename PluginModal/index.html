@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>modal</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button class="btn btn-primary open-modal ml-3 mt-3">Open Modal</button>
+    <!--myModal-->
+    <div class="myModal">
+        <button class="btn btn-info close-my-modal ml-2 mt-2">Close</button>
+    </div>
+    <!--/myModal-->
+    <!--gjQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script src="js/jQuery.easyModal.js"></script>
+    <script>
+        $('.open-modal').on('click',(e) => {
+            $('.myModal').easyModal({
+                closeClass: 'close-my-modal',
+                opacity: .6
+            });
+        });
+    </script>
+</body>
+</html>
