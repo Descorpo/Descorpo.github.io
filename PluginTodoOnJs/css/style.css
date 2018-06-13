@@ -1,0 +1,47 @@
+.info-set{
+    border: 1px solid #a6c7ff;
+}
+
+.notification-alert{
+    display: none;
+}
+.notification-alert.show {
+    display: block;
+}
+
+.empty-list{
+    display: none;
+}
+
+.empty-list.show{
+    display: block;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.sortGroup{
+    display: flex;
+}
+
+.border-red{
+    border-color: red;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+.btn-group{
+    display: flex;
+}
+.display-none-reset{
+    display: none;
+}
+
+.visible-reset-filtr{
+    width: 100%;
+    margin-top: 10px;
+    display: block !important;
+}

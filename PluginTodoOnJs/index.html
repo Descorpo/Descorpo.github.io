@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW6</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="alert notification-alert"></div>
+        <!--/alert notification-alert-->
+        <div class="card mt-4">
+            <div class="card-header">
+                Добавить новый товар
+            </div>
+            <!--/card-header-->
+            <div class="card-body">
+                <form name="formAddItem">
+                    <div class="form-group">
+                        <label for="itemName">Название товара</label>
+                        <input type="text" class="form-control" id="itemName">
+                        <div class="invalid-feedback">Please enter name</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="itemPrice">Цена</label>
+                        <input type="number" class="form-control" id="itemPrice">
+                        <div class="invalid-feedback">Please enter price</div>
+                    </div>
+                    <button class="btn btn-primary btn-block">Добавить товар</button>
+                </form>
+            </div>
+            <!--/card-body-->
+        </div>
+        <!--/card-->
+        <button class="btn btn-warning btn-block sort mt-4 mb-3">Сортировка</button>
+
+
+        <div class="sortGroup align-items-center mb-3">
+            <label for="numLess"> Сортировать в указанном диапазоне : </label>
+            <span class="ml-3">от</span>
+            <input type="number" class="ml-2 numLess" id="numLess">
+            <div class="invalid-feedback">Please enter price</div>
+            <span class="ml-3">до</span>
+            <input type="number" class="ml-2 numMore">
+            <div class="invalid-feedback">Please enter price</div>
+            <button class="btn btn-warning sortBtnNum ml-3 mr-auto">Сортировать</button>
+        </div>
+        <!--/sortGroup-->
+        <div class="btn-group">
+            <button class="btn btn-danger reset-Sort ml-auto"> Сбросить фильтр</button>
+            <button class="btn btn-danger  ml-2 mr-auto reset-list">Очистить список товаров</button>
+        </div>
+        <!--/btn-group-->
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td>
+                        Процессор Intel i7 3Ghz
+                    </td>
+                    <td>
+                        100
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Процессор Intel i5 3Ghz
+                    </td>
+                    <td>
+                        50
+                    </td>
+                </tr>
+            </tbody>
+            <div class="alert empty-list mt-3"></div>
+            <!--/alert empty-->
+        </table>
+    </div>
+    <!--/container-->
+<script src="js/plugin.js"></script>
+</body>
+</html>
