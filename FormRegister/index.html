@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Sprite -->
+    <link rel="stylesheet" href="css/sprite.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="auth-container d-flex">
+        <div class="forms-holder bg-white m-auto">
+            <div class="forms-controls-tab d-flex">
+                <button class="tab-btn active" data-tab-controls data-tabs="#signIn">sign in</button>
+                <button class="tab-btn" data-tab-controls data-tabs="#signUp" >sign up</button>
+            </div>
+            <!-- /forms-controls-tab -->
+            <div class="login-form-holder active" data-tab-pane id="signIn">
+                <div class="auth-form-head border-b">
+                    <div class="title size-xl">
+                        <span>Sign In</span>
+                    </div>
+                    <!-- /title -->
+                    <span class="subtitle">
+                        Today and be our favoret
+                    </span>
+                    <!-- /subtitle -->
+                </div>
+                <!-- /login-form-head -->
+                <div class="auth-form-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="userLogin">Email or Name</label>
+                            <input type="text" class="form-control" placeholder="example@example.com" id="userLogin" maxlength="30">
+                        </div>
+                        <!-- /form-group -->
+                        <div class="form-group">
+                            <label for="userPassword">Password</label>
+                            <input type="password" class="form-control" id="userPassword" placeholder="*****" maxlength="30">
+                        </div>
+                        <!-- /form-group -->
+                        <div class="d-flex justify-content-between">
+                            <div class="checkbox-group">
+                                <input type="checkbox" name="remember" id="remember">
+                                <label for="remember" class="d-flex align-items-center">Remember me</label>
+                            </div>
+                            <!-- /checkbox-group -->
+                            <a href="">Forgot password</a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-end">
+                            <button class="btn btn-default">Sign in</button>
+                            <nav class="social-list d-flex">
+                                <a href=""><span class="icon icon-facebook"></span></a>
+                                <a href=""><span class="icon icon-gooogle"></span></a>
+                                <a href=""><span class="icon icon-twitter"></span></a>
+                            </nav>
+                        </div>
+                    </form>
+                </div>
+                <!-- /auth-form-body -->
+            </div>
+            <!-- /login-form-holder -->
+            <div class="signup-form-holder" data-tab-pane id="signUp">
+                <div class="auth-form-head border-b">
+                    <div class="title size-xl">
+                        <span>Sign Up</span>
+                    </div>
+                    <!-- /title -->
+                    <span class="subtitle">
+                        Today and be our favoret
+                    </span>
+                    <!-- /subtitle -->
+                </div>
+                <!-- /login-form-head -->
+                <div class="auth-form-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="userLogin">Your Username</label>
+                            <input type="text" class="form-control" placeholder="******" id="userLogin" maxlength="30">
+                        </div>
+                        <!-- /form-group -->
+                        <div class="form-group">
+                            <label for="userLogin">Your Email Address</label>
+                            <input type="email" class="form-control" placeholder="sleek@support.com" id="userLogin" maxlength="30">
+                        </div>
+                        <!-- /form-group -->
+                        <div class="form-group">
+                            <label for="userPassword">Your Password</label>
+                            <input type="password" class="form-control" id="userPassword" placeholder="******" maxlength="30">
+                        </div>
+                        <!-- /form-group -->
+                        <div class="form-group">
+                            <label for="userPassword">Repeat Your Password</label>
+                            <input type="password" class="form-control" id="userPassword" placeholder="******" maxlength="30">
+                        </div>
+                        <!-- /form-group -->
+                        <div class="d-flex justify-content-between">
+                            <div class="checkbox-group">
+                                <input type="checkbox" name="agre" id="agre">
+                                <label for="agre" class="d-flex align-items-center">I agree to all <span>Terms</span> </label>
+                            </div>
+                            <!-- /checkbox-group -->
+                        </div>
+                        <div class="d-flex justify-content-between align-items-end">
+                            <button class="btn btn-default">Sign up</button>
+                            <nav class="social-list">
+                                <a href=""><span class="icon icon-facebook"></span></a>
+                                <a href=""><span class="icon icon-gooogle"></span></a>
+                                <a href=""><span class="icon icon-twitter"></span></a>
+                            </nav>
+                        </div>
+                    </form>
+                </div>
+                <!-- /auth-form-body -->
+            </div>
+            <!-- /signup-form-holder -->
+        </div>
+        <!-- /forms-holder -->
+    </section>
+    <!-- /auth-container -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- Tabs -->
+    <script type="text/javascript" src="js/tabs.js"></script>
+</body>
+</html>
