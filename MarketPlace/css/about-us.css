@@ -1,0 +1,42 @@
+/*===== ABOUT-US START=====*/
+.about-us {
+    padding-bottom: 143px;
+}
+.to-know-section {
+    background-color: #f4f6f5;
+}
+/*===== ABOUT-US END=====*/
+
+/*===== INFORMATION-SECTION START=====*/
+.information-section {
+    background-color: #fff;
+    border: 1px solid #dedede;
+}
+.information-section .title {
+    padding-bottom: 20px;
+}
+.information-section .title.lg {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 20px 0 25px 30px;
+}
+.information-section .we-are {
+    padding: 45px 65px 53px 49px;
+}
+
+@media (max-width: 767px){
+    .about-us {
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 599px){
+    .information-section .we-are {
+        padding: 30px 25px;
+    }
+}
+/*===== INFORMATION-SECTION END=====*/
+
+/*===== TEXT-SECTION START=====*/
+.text-section + .text-section {
+    padding-top: 51px;
+}
+/*===== TEXT-SECTION END=====*/

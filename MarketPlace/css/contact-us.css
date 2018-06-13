@@ -1,0 +1,139 @@
+/***** CONTACT US *****/
+.contact-us{
+    padding-bottom: 137px;
+}
+.contact-us .contact-us-wrap{
+    border: 1px solid #dfdfdf;
+}
+.contact-us .contact-us-wrap > .title{
+    padding: 26px 38px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.contact-us .contact-us-section{
+    padding: 32px 38px 14px;
+}
+.contact-us .contact-us-section .contact-us-map iframe{
+    width: 100%;
+    height: 415px;
+}
+.contact-us .contact-us-section .contact-us-info{
+    padding-top: 60px;
+}
+.contact-us-section .contacts .contacts-item + .contacts-item{
+    margin-top: 25px;
+}
+.contact-us-section .contacts-item .title{
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 22px;
+}
+.contact-us-section .contacts .contacts-item .title::after{
+    content: '';
+    width: 44px;
+    border-bottom: 3px solid #8bc34a;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+.contact-us-section .contacts .contacts-item .title .fa{
+    font-size: 24px;
+    margin-right: 23px;
+}
+.contact-us-section .contacts .contacts-item:last-child .title .fa{
+    margin-right: 16px;
+}
+.contact-us-section .contacts .contacts-item > span{
+    line-height: 24px;
+    color: #707070;
+    margin-left: 40px;
+}
+.contact-us-section .drop-us-message .contact-us-form{
+    padding: 23px 0;
+} 
+.contact-us-section .contact-us-form .user-info{
+    margin-bottom: 28px;
+}
+.contact-us-section .contact-us-form .user-info input + input{
+    margin-left: 25px;
+}
+.contact-us-section .contact-us-form .user-message textarea{
+    min-height: 200px;
+}
+.contact-us-section .contact-us-form .user-info input,
+.contact-us-section .contact-us-form .user-message textarea{
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #f1f4f5;
+    color: #7a7a7a;
+    font: 400 15px/24px 'Roboto';
+    padding: 10px 17px;
+}
+.contact-us-section .contact-us-form .user-info input::-webkit-input-placeholder{
+    color: #7a7a7a;
+}  
+.contact-us-section .contact-us-form .user-info input::-moz-placeholder{
+    color: #7a7a7a;
+}  
+.contact-us-section .contact-us-form .user-info input:-moz-placeholder{
+    color: #7a7a7a;
+}  
+.contact-us-section .contact-us-form .user-info input:-ms-input-placeholder{
+    color: #7a7a7a;
+} 
+.contact-us-section .contact-us-form .user-info input:focus,
+.contact-us-section .contact-us-form .user-message textarea:focus{
+    border: 1px solid #8bc34a;
+}
+.contact-us-section .drop-us-message button{
+    text-transform: uppercase;
+    font: 500 16px/1 'Roboto';
+    padding: 19px 36px;
+}
+.contact-us-section .drop-us-message button:hover{
+    background-color: #92cc4e;
+}
+
+@media (max-width: 991px){
+    .contact-us-section .contacts{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+    }
+    .contact-us-section .contacts .contacts-item + .contacts-item{
+        margin-top: 0;
+    }
+    .contact-us-section .contacts .contacts-item{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 767px){
+    .contact-us{
+        padding-bottom: 80px;
+    }
+    .contact-us .contact-us-section{
+        padding: 15px;
+    }
+}
+@media (max-width: 599px){
+    .contact-us-section .contact-us-form .user-info{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .contact-us-section .contact-us-form .user-info input + input{
+        margin: 28px 0 0 0;
+    }
+}
+@media (max-width: 479px){
+    .contact-us-section .drop-us-message button{
+        width: 100%;
+    }
+}
+/***** CONTACT US END *****/

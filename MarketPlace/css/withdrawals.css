@@ -1,0 +1,57 @@
+/****** WITHDRAWALS PAGE ******/
+.withdrawals-page{
+    padding-bottom: 140px;
+}
+.withdrawals-earnings,
+.withdrawals-history{
+    border: 1px solid #dedede;
+}
+.withdrawals-earnings .title,
+.withdrawals-history .title{
+    padding: 20px 35px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.withdrawals-form-wrap,
+.withdrawals-history .table-wrap{
+    padding: 30px 35px 50px;
+}
+.withdrawals-form-wrap .form-group-row label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.withdrawals-form-wrap .form-group-row input,
+.withdrawals-form-wrap .form-group-row .jq-selectbox{
+    margin: 30px 0 20px 0;
+}
+.withdrawals-earnings .btn-w{
+    margin-top: 20px;
+}
+.withdrawals-history .withdraw-table{
+    width: 100%; 
+    min-width: 480px;
+}
+.withdrawals-history .table-wrap .panel.panel-default{
+    overflow-x: auto;
+}
+.withdrawals-history .history-table tbody tr td {
+    padding: 15px 5px;
+    line-height: 1.3;
+}
+
+@media (max-width: 991px){
+    .withdrawals-page .row div[class^="col-"] + div[class^="col-"]{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 767px){
+    .withdrawals-page{
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 479px){
+    .withdrawals-earnings .btn-w .btn.btn-md{
+        width: 100%;
+    }
+}
+/****** WITHDRAWALS PAGE  END******/

@@ -1,0 +1,141 @@
+/******** HEADER ********/
+.login-page .top-header .header-nav{
+    font-weight: 500;
+}
+.login-page .top-header .header-nav a + a{
+    margin-left: 37px;
+}
+.login-page .top-header .header-nav a:hover{
+    color: #8bc34a;
+}
+.login-page .top-header .dropdown-menu{
+    right: 0;
+}
+
+@media (max-width: 991px){
+    .login-page .top-header .top-bar{
+        margin-left: auto;
+    }
+}
+/******** HEADER END ********/
+
+/******* INNER START ********/
+@media (max-width: 599px){
+    .login-page  .search-section{
+        margin-top: 0;
+    }
+}
+/********* INNER END ********/
+
+/******** MODAL LOGIN ********/
+.login-modal{
+    display: none;
+    position: relative;
+}
+.login-modal{
+    padding: 95px 165px 110px;
+}
+.login-modal .close-modal{
+    font-size: 18px;
+    position: absolute;
+    top: 21px;
+    right: 28px;
+}
+.login-modal .close-modal:hover{
+    cursor: pointer;
+    color: #263238;
+}
+.login-modal .login-title{
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.login-modal .login-form{
+    margin-top: 40px;
+}
+.login-modal .login-section + .login-section{
+    margin-top: 8px;
+}
+.login-modal .login-section{
+    position: relative;
+}
+.login-modal .login-section label{
+    position: absolute;
+    top: 17px;
+    left: 18px;
+}
+.login-modal .login-section .form-login{
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #76ae36;
+    outline: none;
+    font-size: 15px;
+    padding: 15px 20px 14px 40px;
+}
+.login-modal .login-section input::-webkit-input-placeholder{
+    color: #fff;
+}  
+.login-modal .login-section input::-moz-placeholder{
+    color: #fff;
+}  
+.login-modal .login-section input:-moz-placeholder{
+    color: #fff;
+}  
+.login-modal .login-section input:-ms-input-placeholder{
+    color: #fff;
+}     
+.login-modal .login-section input:focus{
+    border: 1px solid #518319;
+}
+.login-modal .btn-row{
+    margin: 20px 0 25px;
+}
+.login-modal .btn-row .submit{
+    -webkit-box-shadow: 0 2px 2px 0 rgba(118, 174, 54, 0.75);
+    box-shadow: 0 2px 2px 0 rgba(118, 174, 54, 0.75);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 19px 43px;
+    margin-right: 10px;
+}
+.login-modal .btn-row .submit:hover{
+    background-color: #76ae36;
+    color: #263238;
+}
+.login-modal .btn-row .create-account{
+    font-size: 18px;
+    width: 100%;
+    padding: 17px 36px;
+    background-color: #76ae36;
+}
+.login-modal .btn-row .create-account .fa{
+    margin-right: 10px;
+}
+.login-modal .btn-row .create-account:hover{
+    background-color: #fff;
+    color: #76ae36;;
+}
+.login-modal .lost-password{
+    font-size: 18px;
+}
+.login-modal .lost-password:hover{
+    color: #263238;
+}
+
+@media (max-width: 767px){
+    .login-modal{
+        padding: 30px;
+    }
+}
+@media (max-width: 479px){
+    .login-modal .btn-row{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .login-modal .btn-row .submit{
+        margin: 0 0 10px 0;
+    }
+}
+/******** MODAL LOGIN END ********/

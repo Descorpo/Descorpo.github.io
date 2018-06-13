@@ -1,0 +1,102 @@
+/* ===== PERSONAL INFO START ===== */
+.personal-info-container {
+    padding-bottom: 110px;
+}
+.personal-information {
+    border: 1px solid #dfdfdf;
+}
+.personal-information .title {
+    padding: 20px 33px;
+    border-bottom: 1px solid #d7d7d7;
+}
+@media (max-width: 767px) {
+    .personal-information .title {
+        padding: 20px;
+    }
+    .personal-information.title.lg {
+        font-size: 20px;
+    }
+}
+.personal-information .personal-information-wrap {
+    padding: 43px 45px 67px;
+}
+@media (max-width: 767px) {
+    .personal-information .personal-information-wrap {
+        padding: 20px 20px 30px;
+    }
+}
+.personal-information form .form-group-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .personal-information form .form-group-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+@media (max-width: 767px) {
+    .personal-information .form-group label {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
+.personal-information form .form-group input, 
+.personal-information form .form-group textarea, 
+.personal-information form .form-group .file-upload, 
+.personal-information form .form-group .jq-selectbox {
+    width: 66.66%;
+}
+@media (max-width: 767px) {
+    .personal-information form .form-group input, 
+    .personal-information form .form-group textarea, 
+    .personal-information form .form-group .file-upload, 
+    .personal-information form .form-group .jq-selectbox {
+        width: 100%;
+    }
+}
+.personal-information form button[type="submit"] {
+    border: none;
+    margin-left: 33.33%;
+}
+@media (max-width: 767px) {
+    .personal-information form button[type="submit"] {
+        margin-left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+.personal-info-container .aside-list-section {
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+}
+.personal-info-container .aside-list-nav li a {
+    padding: 18px 20px;
+    display: block;
+    height: 53px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.personal-info-container .aside-list-nav li:last-of-type a {
+    border-bottom: none;
+}
+.personal-info-container .aside-list-nav li a.active, .personal-info-container .aside-list-nav li a:hover {
+    border-bottom: 2px solid #8bc34a;
+    color: #263238;
+}
+.personal-info-container .aside-list-nav li a.active i {
+    color: #8bc34a;
+}
+.personal-info-container .aside-list-nav i {
+    margin-right: 14px;
+}
+/* ===== PERSONAL INFO END ===== */

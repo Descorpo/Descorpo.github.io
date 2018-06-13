@@ -1,0 +1,64 @@
+/****** UPLOAD PRODUCT ******/
+.upload-product{
+    padding-bottom: 110px;
+}
+.upload-product .upload-product-wrap{
+    border: 1px solid #dfdfdf;
+}
+.upload-product .upload-section{
+    padding: 43px 45px 67px;
+}
+.upload-product  .title{
+    padding: 20px 33px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.upload-product .form-group-row{
+    margin-bottom: 20px;
+}
+.upload-product .form-group .form-control{
+    width: 80%;
+}
+.upload-product .upload-section .submit-btn-wrap{
+    width: 80%;
+}
+.upload-product .upload-section form button{
+    outline: none;
+    padding: 16px 38px;
+    margin-top: 22px;
+}
+
+@media (max-width: 991px){
+    .upload-product .title {
+        padding: 20px 15px;
+    }
+    .upload-product .upload-section{
+        padding: 33px 15px 47px;
+    }
+}
+@media (max-width: 767px){
+    .upload-product .upload-section .form-group-row{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .upload-section .form-group-row > label{
+        margin-bottom: 10px;
+    }
+    .upload-product .form-group .form-control{
+        width: 100%;
+    }
+    .upload-product .upload-section .submit-btn-wrap {
+        width: 100%;
+        margin: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 479px){
+    .upload-product .upload-section .submit-btn-wrap button{
+        width: 100%;
+    }
+}
+/****** UPLOAD PRODUCT END ******/

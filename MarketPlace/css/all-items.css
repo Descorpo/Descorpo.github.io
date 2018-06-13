@@ -1,0 +1,171 @@
+/* =====ALL ITEMS PAGE 4===== */
+.all-items-page-container{
+    margin-bottom: 110px;
+}
+/* =====Aside sections===== */
+.aside-section .aside-categories > a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #263238;
+    margin-top: 27px;
+}
+.aside-section .aside-categories a:hover,
+.aside-section .aside-categories a:hover span{
+    color: #8bc34a;
+}
+.aside-section .aside-categories .aside-icon{
+    color: #8bc34a;
+    font-size: 18px;
+    margin-right: 15px;
+}
+.categories-numbers::before{
+    content: "(";
+}
+.categories-numbers::after{
+    content: ")";
+}
+.card-aside-title:hover{
+    color: #8f0000;
+}
+
+/* =====Section cards===== */
+.sort-controls-container{
+    border: 1px solid #bebebe;
+    padding: 20px;
+}
+.sort-controls-container .sort-by span{
+    margin: 0 20px 0 10px;
+}
+.sort-controls-container .sort-by .mobile-aside-toggle{
+    display: none;
+    background-color: inherit;
+    margin-right: 10px;
+}
+.sort-controls-container .sort{
+    color: #455a64;
+}
+.sort-controls-container .change-icon + .change-icon{
+    margin-left: 10px;
+}
+.sort-controls-container .change-icon{
+    cursor: pointer;
+}
+.sort-controls-container .change-icon:hover,
+.sort-controls-container .change-icon.active{
+    color: #8bc34a;
+}
+.all-items-container .medium-card{
+    margin-top: 30px;
+}
+.all-items-container .pagination{
+    line-height: 47px;
+    margin-top: 55px;
+}
+@media (max-width:991px){
+    .all-items-container .pagination{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+/*=====Media for card===== */
+@media(max-width: 1199px){
+    .card.medium-card .card-author-info{
+        padding: 15px 10px;
+    }
+    .product-rating{
+        font-size: 10px;
+    }
+    .card.row-card .card-description{
+        padding: 25px 10px 15px;
+    }
+}
+@media (max-width:991px){
+    .card.medium-card .card-author-info{
+        padding: 16px 20px;
+    }
+    .product-rating{
+        font-size: 14px;
+    }
+}
+@media (max-width:767px){
+    .card.row-card .card-description{
+        padding: 10px 10px 15px;
+    }
+    .card.row-card .card-description .price{
+        font-size: 20px;
+    }
+    .card.row-card .card-description-wrapper .card-text-info p{
+        font-size: 12px;
+        max-width: 245px;
+    }
+    .card.row-card .card-description-wrapper .card-text-info span{
+        font-size: 12px;
+    }
+    .card.row-card .card-author-info .product-rating,
+    .card.row-card .card-author-info .product-download{
+        display: none;
+    }
+    .card.row-card .card-description-wrapper .card-comments, .card.row-card .card-description-wrapper .card-like{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+@media (max-width:599px){
+    .change-views i{
+        display: none;
+    }
+}
+/* =====END ALL ITEMS PAGE 4===== */
+/* === price-range === */
+#slider-range {
+    margin-bottom: 50px;
+}
+.ui-slider.ui-corner-all span {
+    outline: none;
+}
+#slider-range .min-value,
+#slider-range .max-value {
+    position: absolute;
+    bottom: -30px;
+    color: #78909c;
+    font-size: 15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.ui-slider .ui-state-default, 
+.ui-slider .ui-widget-content .ui-corner-all.ui-state-default {
+    border: 3px solid #8bc34a;
+    border-radius: 50%;
+    background-color: #fff;
+    font-weight: normal;
+    height: 16px;
+    width: 16px;
+}
+.ui-slider-range.ui-corner-all.ui-widget-header {
+    background: #37474f;
+}
+.ui-slider.ui-widget.ui-widget-content {
+    border: none;
+    height: 5px;
+    background-color: #f2f5f8;
+    color: #333333;
+    border-radius: 3px;
+}
+.ui-slider.ui-slider-horizontal .ui-slider-handle {
+    top: -0.4em;
+}

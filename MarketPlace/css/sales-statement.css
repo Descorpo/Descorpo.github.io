@@ -1,0 +1,96 @@
+/* ====== SALES-STATEMENT START ===== */
+.sales-statement-page {
+    padding-bottom: 140px;
+}
+.sales-statement-wrap {
+    border: 1px solid #dedede;
+}
+.sales-statement-page .default-date {
+    padding: 20px 30px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.sales-statement-page .default-date .input-control {
+    position: relative;
+}
+.sales-statement-page .default-date .datepicker .form-control-date {
+    border: 1px solid  #dcdcdc;
+    background-color: #f9f9f9;
+    height: 28px;
+    padding-left: 14px;
+    padding-right: 22px;
+    width: 134px;
+}
+.sales-statement-page .default-date .input-control .form-control-date:focus {
+    border-color: #8bc34a;
+}
+.sales-statement-page .default-date .datepicker  label {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    color: #8cc148;
+    font-size: 12px;
+}
+.sales-statement-page .default-date .datepicker span {
+    margin: 0 10px;
+}
+.sales-statement-page .default-date .datepicker .btn {
+    padding: 9px 22px;
+    margin-left: 13px;
+}
+.sales-statement-page .sales-table {
+    padding: 35px 38px 0;
+}
+.sales-statement-page .sales-table .table-wrap {
+    overflow-x: auto;
+}
+.sales-statement-page .sales-table .table-wrap .panel.panel-default {
+    min-width: 600px;
+}
+.sales-statement-page .sales-table .total-price {
+    padding: 80px 0;
+}
+
+@media (max-width: 767px) {
+    .sales-statement-page {
+        padding-bottom: 80px;
+    }
+    .sales-statement-page .default-date {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+    }
+    .sales-statement-page .default-date > .title {
+        margin-bottom: 15px;
+    }
+    .sales-statement-page .sales-table .total-price {
+        padding: 30px 0;
+    }
+}
+@media (max-width: 599px) {
+    .sales-statement-page .sales-table {
+        padding: 35px 25px 0;
+    }
+    .sales-statement-page .default-date {
+        padding: 20px 23px;
+    }
+}
+@media (max-width: 479px) {
+    .sales-statement-page .default-date .datepicker {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .sales-statement-page .default-date .datepicker .datepicker-wrap,
+    .sales-statement-page .default-date .datepicker .form-control-date {
+        width: 100%;
+    }
+    .sales-statement-page .default-date .datepicker .btn {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+/* ====== SALES-STATEMENT START ===== */

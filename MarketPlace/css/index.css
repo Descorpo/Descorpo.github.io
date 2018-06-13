@@ -1,0 +1,173 @@
+/******** LETS-CHECK START ********/
+.lets-check .nav-tags{
+    width: 100%;
+    margin: 58px 0;
+}
+.lets-check .row > div[class^="col-"] {
+    margin-bottom: 30px;
+}
+.lets-check .card.large-card .card-description,
+.lets-check .card.large-card .card-author-info{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.lets-check .btn-row{
+    margin-top: 76px;
+}
+.lets-check .btn-row a + a{
+    margin-left: 12px;
+}
+.lets-check .mobile-tags-wrap{
+    margin: 28px 0;
+}
+
+@media (max-width: 767px){
+    .lets-check .nav-tags{
+        margin: 28px 0;
+    }
+    .lets-check .btn-row{
+        margin-top: 46px;
+    }
+}
+@media (max-width: 479px){
+    .lets-check .btn-row{
+        width: 100%;
+    }
+    .lets-check .btn-row a + a{
+        margin: 12px 0 0 0;
+    }
+}
+/******** LETS-CHECK END ********/
+
+/******** WEEK-TRENDING ********/
+.week-trending .slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+.week-trending .card-items-slider{
+    margin-top: 55px;
+}
+.week-trending .card.large-card .card-description,
+.week-trending .card.large-card .card-author-info{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.week-trending .card-items-slider .slick-track{
+    padding-bottom: 30px;
+}
+.week-trending .card-items-slider .slider-item{
+    margin: 0 10px;
+}
+.week-trending .slick-dots{
+    margin-top: 67px;
+    position: static;
+}
+
+@media (max-width: 479px){
+    .week-trending .card-items-slider{
+        margin-top: 35px;
+    }
+    .week-trending .slick-dots{
+        margin-top: 37px;
+    }
+}
+/******** WEEK-TRENDING END ********/
+
+/******** WHY-CHOOSE-FOXTAR START ********/
+.why-choose-foxtar .advantages{
+    margin-top: 80px;
+}
+.why-choose-foxtar .advantages .advantages-item .title{
+    margin: 25px 0;
+}
+.why-choose-foxtar .advantages .advantages-item:hover .title{
+    color: #8bc34a;
+}
+.why-choose-foxtar .advantages .advantages-item p{
+    color: #b0bec5;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .why-choose-foxtar .advantages{
+        margin-top: 40px;
+    }
+    .why-choose-foxtar .row div[class^="col-"] + div[class^="col-"] {
+        margin-top: 30px;
+    }
+}
+/******** WHY-CHOOSE-FOXTAR END ********/
+
+/******** BECOME-AUTHOR START ********/
+.become-author .big-rectangle{
+    height: 440px;
+    width: 100%;
+    background-color: #b5b5b5;
+    position: relative;
+}
+.become-author .big-rectangle .small-rectangle{
+    padding: 76px 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.become-author .big-rectangle .small-rectangle .become-author-btn{
+    margin-left: 30px;
+}
+
+@media (max-width: 991px){
+    .become-author .big-rectangle .small-rectangle{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    } 
+    .become-author .big-rectangle .small-rectangle .become-author-btn{
+        margin: 25px 0 0 0;
+    }
+    .become-author .big-rectangle .small-rectangle .become-author-btn a{
+        padding: 20px;
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .become-author .big-rectangle .small-rectangle{
+        padding: 26px 20px;
+    }
+}
+@media (max-width: 599px){
+    .become-author .big-rectangle .small-rectangle{
+        width: 70%;
+    }
+}
+/******** BECOME-AUTHOR END ********/
+
+/******** FREE-TUTORIALS START ********/
+.free-tutorials .container > .title{
+    margin-bottom: 58px;
+}
+.free-tutorials .free-tutorials-item .title{
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.free-tutorials .free-tutorials-item:hover{
+    -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
+    box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+@media (max-width: 991px){
+    .free-tutorials .row div[class^="col-"] + div[class^="col-"] {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 479px){
+    .free-tutorials .container > .title{
+        margin-bottom: 28px;
+    }
+}
+/******** FREE-TUTORIALS END ********/
