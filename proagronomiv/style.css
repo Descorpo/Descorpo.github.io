@@ -128,7 +128,7 @@ a:hover, a:active{
 }
 .container {
     width: 350px;
-    padding-top: 10px;
+    padding: 10px;
     background-color: #333333;
 }
 .accordion-header {
