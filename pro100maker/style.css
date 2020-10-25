@@ -6,6 +6,7 @@
 body{
 	margin: 0;
 	font: 300 15px/1 "Open Sans", sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 a{
@@ -30,7 +31,7 @@ a:hover, a:active{
 	font-family: "Dosis",sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #111;
+	color: #ffffff;
 	letter-spacing: .5em;
 	margin-bottom: 50px;
 }
@@ -44,7 +45,7 @@ a:hover, a:active{
 
 .main-logo img {
     height: 50px;
-    border-radius: 17px;
+    border-radius: 50px;
 }
 
 .item {
@@ -53,6 +54,8 @@ a:hover, a:active{
     height: 45px;
     line-height: 45px;
     padding-left: 5px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #ffffff;
 }
 
 .item a {
@@ -94,15 +97,22 @@ a:hover, a:active{
     border-right: 1px solid;
     border-bottom: 1px solid;
     text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
 }
+
 .accordion-item .accordion-body {
     display: none;
 }
 .accordion-item .accordion-header{
     background-color: #f7f7f7;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
 }
 .accordion-item.active .accordion-header{
-    background-color: rgba(64, 60, 60, 0.78);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
+    /*background-color: rgba(64, 60, 60, 0.78);*/
     color: #fff;
 }
 .accordion-item.active  .accordion-body{

@@ -9,13 +9,13 @@ function onclick(e) {
         item.slideUp(300);
 
         header.css({
-            'background': '#f7f7f7',
-            'color': '#000'
+            'background': 'linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%)',
+            'color': '#fff'
         });
     } else {
         accordionBtn.find('>.accordion-header').css({
-            'background': '#f7f7f7',
-            'color': '#000'
+            'background': 'linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%)',
+            'color': '#fff'
         });
 
         accordionBtn.find('>.accordion-body').slideUp(300);
@@ -23,7 +23,7 @@ function onclick(e) {
         item.slideDown(300);
 
         header.css({
-            'background': 'rgba(64, 60, 60, 0.78)',
+            'background': 'linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%)',
             'color': '#fff'
         });
     }
