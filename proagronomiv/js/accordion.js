@@ -10,7 +10,8 @@ function onclick(e) {
 
         header.css({
             'background': '#333333',
-            'color': 'yellow'
+            'color': 'yellow',
+            'border': '1px solid'
         });
     } else {
         accordionBtn.find('>.accordion-header').css({
@@ -24,7 +25,8 @@ function onclick(e) {
 
         header.css({
             'background': '#333333',
-            'color': '#fff'
+            'color': '#fff',
+            'border': 'none'
         });
     }
 }
