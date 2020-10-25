@@ -1,0 +1,183 @@
+*{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+    font: 300 15px/1 "Open Sans", sans-serif;
+    color: yellow;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+
+a:hover, a:active{
+	text-decoration: none;
+	color: inherit;
+}
+
+.brand-name {
+    font-size: 30px;
+    color: yellow;
+}
+
+.fio {
+    font-size: 23px;
+}
+
+.profession {
+    position: relative;
+    margin-top: 5px;
+}
+
+.phone-wrapper {
+    width: 100%;
+    text-align: center;
+    padding-right: 5px;
+    margin-top: 10px;
+    
+}
+
+.phone-number {
+    /* position: absolute; */
+    /* right: 15px; */
+    color: #c9c9fd;
+    margin-top: 5px;
+    font-size: 28px;
+}
+
+.brand-line1 {
+    margin-bottom: 0px;
+    height: 10px;
+    /* color: black; */
+    background: yellow;
+    margin-top: 1px;
+}
+
+.brand-line2 {
+    margin-top: 2px;
+    height: 10px;
+    background: yellow;
+    margin-bottom: 12px;
+}
+
+.default-section{
+    padding-top: 40px;
+}
+/* =====TITLE===== */
+.title{
+	font-family: "Dosis",sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #111;
+	letter-spacing: .5em;
+	margin-bottom: 50px;
+}
+.title > *{
+	font-size: 18px;
+}
+
+.main-logo {
+    margin-bottom: 15px;
+}
+
+.main-logo img {
+    height: 50px;
+    border-radius: 17px;
+}
+
+.item {
+    margin-bottom: 5px;
+    /* box-shadow: 0px 0px 6px; */
+    height: 45px;
+    line-height: 45px;
+    padding-left: 5px;
+}
+
+.item a {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.item span {
+    font-weight: 700;
+}
+
+.item i {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.item i.youtube {
+    color: red;
+}
+
+.first.item {
+    margin-top: 30px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: 350px;
+    padding-top: 10px;
+    background-color: #333333;
+}
+.accordion-header {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.accordion-body {
+    padding: 8px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+.accordion-item .accordion-body {
+    display: none;
+}
+.accordion-item .accordion-header{
+    background-color: #333333;
+}
+.accordion-item.active .accordion-header{
+    background-color:  #333333;
+    color: yellow;
+}
+.accordion-item.active  .accordion-body{
+    display: block;
+}
+
+.accordion-item {
+    margin-bottom: 24px;
+}
+
+.accordion-body p {
+    font-weight: 500;
+}
+
+.qr-code-item {
+    margin-top: 8px;
+}
+
+.qr-code-item img {
+    width: 50%;
+}
+
+.fa-angle-double-right {
+    position: absolute;
+    right: 0;
+}
